@@ -1,4 +1,4 @@
-# Curve-Detection-by-CNN
+# Curve Type-Detection-by-CNN
 An ongoing research project which uses CNN to detect the type and the position of curves in images.
 
 ## Objective
