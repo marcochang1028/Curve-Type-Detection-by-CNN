@@ -2,7 +2,7 @@
 An ongoing research project which uses CNN to detect the type and the position of curves in images.
 
 ## Objective
-In this project, the CNN model needs to detect the type and the position of curves which are made up of a group of points (not a line). Since I am unable to get enough data for the training, I wrote a program to generate the simulated images. Next, I follow [`CIFAR-10`](https://www.tensorflow.org/tutorials/deep_cnn) to construct the data pipeline and the structure of the functions and files. I also borrow the idea from YOLO V2 model to design the structure of labels (box information).  
+In this project, the CNN model tries to detect the type and the position of curves which are made up of a group of points (not a line). Since I am unable to get enough data for the training, I wrote a program to generate the simulated images. Next, I follow [`CIFAR-10`](https://www.tensorflow.org/tutorials/deep_cnn) to construct the data pipeline and the structure of the functions and files. I also borrow the idea from `YOLO V2 model` to design the structure of labels (box information).  
 
 Please note that it is an ongoing project, thus, the model is still being optimized, especially the layers, parameters, loss function. 
 
